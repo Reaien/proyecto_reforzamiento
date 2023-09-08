@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+  <div class="glass-content">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <img class="logo" src="../../../assets/img/tigre.png" alt="logo-tigre">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <form [formGroup] = "formularioLogin">
+              <ion-item class="label-container">
+                <ion-label class="ion-text-center" position="floating">Usuario</ion-label>
+                <ion-input formControlName="nombre" type="text" [(ngModel)]="user.usuario"></ion-input>
+              </ion-item>
+              <ion-item class="label-container">
+                <ion-label class="ion-text-center" position="floating">Contraseña</ion-label>
+                <ion-input formControlName="password" type="password" [(ngModel)]="user.password"></ion-input>
+              </ion-item>
+            </form>
+          </ion-card>
+        </ion-col>    
+      </ion-row>  
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="ingresar()" class="boton-font" shape="round" color="success" expand="block">Ingresar</ion-button>
+        </ion-col>
+      </ion-row>    
+    </ion-grid>
+  </div>
+</ion-content>

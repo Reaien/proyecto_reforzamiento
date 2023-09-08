@@ -1,27 +1,46 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.logo{
+  width: 15rem;
+}
+.label-container{
+  color: white;
+  font-weight: bolder;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-card{
+  height: 19rem;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.glass-content {
+/* From https://css.glass */
+  background: rgba(44, 44, 44, 0.548);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(15.1px);
+  width: 100%;
+  height: 100%;
 }
 
-#container a {
-  text-decoration: none;
+.chip{
+  height: 3.5rem;
+  background-color:rgb(255, 255, 255);
+}
+
+.avatar{
+  height: 3rem;
+  min-width: 3rem;
+}
+
+.swiper-container{
+  max-height: 60%;
+}
+
+.slide-genre-image{
+  border-radius: 10px; 
+  margin-left: 2rem; 
+}
+
+.slide-image{
+  height: 12rem;
+  border-radius: 20px; 
 }
