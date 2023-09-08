@@ -52,7 +52,7 @@ export class HomePage implements OnInit{
       .duration(1500)
       .iterations(Infinity)
       .direction('alternate')
-      .fromTo('background', 'green', 'white');
+      .fromTo('background', 'green', 'orange');
 
     this.animation=this.animationController
     .create()

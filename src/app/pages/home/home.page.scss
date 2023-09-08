@@ -11,7 +11,6 @@ ion-card{
 }
 
 .glass-content {
-/* From https://css.glass */
   background: rgba(44, 44, 44, 0.548);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.432);
@@ -19,6 +18,13 @@ ion-card{
   -webkit-backdrop-filter: blur(15.1px);
   width: 100%;
   height: 100%;
+}
+
+.titulo-app{
+  margin-top: 5rem;
+  font-weight: bolder;
+  color: rgb(247, 247, 247);
+  font-size: 4rem;
 }
 
 .chip{
