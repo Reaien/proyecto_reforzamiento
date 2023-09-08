@@ -2,19 +2,16 @@ ion-content{
     --ion-background-color: url(/assets/img/fondo.png) no-repeat center center / cover;
 }
 
-.titulo-app{
-    margin-top: 5rem;
-    font-weight: bolder;
-    color: rgb(247, 247, 247);
-    font-size: 4rem;
+.logo{
+    width: 10rem;
 }
-
-.boton-font{
+.label-container{
+    color: white;
     font-weight: bolder;
 }
 
-.botones{
-    margin-top: 2rem;
+ion-card{
+    --ion-background-color: rgba(35, 124, 39, 0.61);
 }
 
 .glass-content {
